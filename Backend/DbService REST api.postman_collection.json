@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "dfadf97f-eb93-4bc2-94f7-2105544f3939",
+		"name": "DbService REST api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46547146",
+		"_collection_link": "https://eliavmendelsohn.postman.co/workspace/Eliav-Mendelsohn's-Workspace~2ae13199-c504-492f-8a0e-dd81e2693dff/collection/46547146-dfadf97f-eb93-4bc2-94f7-2105544f3939?action=share&source=collection_link&creator=46547146"
+	},
+	"item": [
+		{
+			"name": "Get all sarvers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/servers/Api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"servers",
+						"Api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

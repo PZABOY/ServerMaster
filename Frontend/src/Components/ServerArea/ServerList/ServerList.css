@@ -1,0 +1,67 @@
+:root {
+  --sf: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: #6e6e73;
+  --border: #e5e5ea;
+  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 20px rgba(0,0,0,.04);
+  --radius: 16px;
+}
+
+.ServerList {
+  font-family: var(--sf);
+  color: var(--text);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 20px 28px;
+}
+
+.sl-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.sl-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.sl-check input {
+  width: 16px;
+  height: 16px;
+  accent-color: #007aff; /* iOS blue */
+}
+
+.sl-segmented {
+  background: #f2f2f7;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2px;
+  display: inline-flex;
+  gap: 2px;
+}
+.seg-btn {
+  border: none;
+  background: transparent;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+.seg-btn.active {
+  background: #ffffff;
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.sl-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}

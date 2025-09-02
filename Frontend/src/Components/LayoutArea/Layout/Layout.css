@@ -1,0 +1,129 @@
+:root {
+  /* Typography & layout */
+  --sf: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --container: 1120px;
+  --radius: 16px;
+  --pad: 20px;
+  --gap: 16px;
+
+  /* Colors */
+  --bg-app: #f5f5f7;   /* Apple system grouped background */
+  --bg-card: #ffffff;
+  --text: #111111;
+  --muted: #6e6e73;    /* system gray */
+  --border: #e5e5ea;   /* iOS separator */
+
+  /* Effects */
+  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 20px rgba(0,0,0,.04);
+  --topbar-bg: rgba(255,255,255,0.82);
+  --topbar-border: #e7e7ec;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-app);
+  color-scheme: light;
+}
+
+html {
+  /* Smooth typography */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  /* Anchor target offset for sticky topbar */
+  scroll-padding-top: 64px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sf);
+  color: var(--text);
+}
+
+.Layout {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Top bar — translucent, sticky, subtle separator */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  background: var(--topbar-bg);
+  border-bottom: 1px solid var(--topbar-border);
+}
+.topbar > * {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: calc(12px + env(safe-area-inset-top, 0px)) var(--pad) 12px;
+}
+
+/* Main content area — centered, generous spacing */
+.layout-main {
+  max-width: var(--container);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--pad);
+  display: block;
+}
+
+/* Bottom bar — subtle separator and neutral tone */
+.bottombar {
+  border-top: 1px solid var(--border);
+  background: var(--bg-card);
+}
+.bottombar > * {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 14px var(--pad) calc(14px + env(safe-area-inset-bottom, 0px));
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+/* Card/section helper */
+.section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .topbar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Small screens */
+@media (max-width: 680px) {
+  :root {
+    --pad: 16px;
+    --radius: 14px;
+  }
+  .topbar > *,
+  .layout-main,
+  .bottombar > * {
+    padding-left: var(--pad);
+    padding-right: var(--pad);
+  }
+}

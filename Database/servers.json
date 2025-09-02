@@ -1,0 +1,212 @@
+[
+  {
+    "name": "server-1-1",
+    "ip": "10.0.0.1",
+    "companyHostingId": "66e00a111111111111111111",
+    "status": "active",
+    "createdAt": "2025-01-01T08:00:00Z"
+  },
+  {
+    "name": "server-1-2",
+    "ip": "10.0.0.2",
+    "companyHostingId": "66e00a111111111111111111",
+    "status": "inactive",
+    "createdAt": "2025-01-02T08:00:00Z"
+  },
+  {
+    "name": "server-1-3",
+    "ip": "10.0.0.3",
+    "companyHostingId": "66e00a111111111111111111",
+    "status": "active",
+    "createdAt": "2025-01-03T08:00:00Z"
+  },
+  {
+    "name": "server-1-4",
+    "ip": "10.0.0.4",
+    "companyHostingId": "66e00a111111111111111111",
+    "status": "inactive",
+    "createdAt": "2025-01-04T08:00:00Z"
+  },
+  {
+    "name": "server-1-5",
+    "ip": "10.0.0.5",
+    "companyHostingId": "66e00a111111111111111111",
+    "status": "active",
+    "createdAt": "2025-01-05T08:00:00Z"
+  },
+  {
+    "name": "server-2-1",
+    "ip": "10.0.1.1",
+    "companyHostingId": "66e00a222222222222222222",
+    "status": "active",
+    "createdAt": "2025-01-06T08:00:00Z"
+  },
+  {
+    "name": "server-2-2",
+    "ip": "10.0.1.2",
+    "companyHostingId": "66e00a222222222222222222",
+    "status": "inactive",
+    "createdAt": "2025-01-07T08:00:00Z"
+  },
+  {
+    "name": "server-2-3",
+    "ip": "10.0.1.3",
+    "companyHostingId": "66e00a222222222222222222",
+    "status": "active",
+    "createdAt": "2025-01-08T08:00:00Z"
+  },
+  {
+    "name": "server-2-4",
+    "ip": "10.0.1.4",
+    "companyHostingId": "66e00a222222222222222222",
+    "status": "inactive",
+    "createdAt": "2025-01-09T08:00:00Z"
+  },
+  {
+    "name": "server-2-5",
+    "ip": "10.0.1.5",
+    "companyHostingId": "66e00a222222222222222222",
+    "status": "active",
+    "createdAt": "2025-01-10T08:00:00Z"
+  },
+  {
+    "name": "server-3-1",
+    "ip": "10.0.2.1",
+    "companyHostingId": "66e00a333333333333333333",
+    "status": "active",
+    "createdAt": "2025-01-11T08:00:00Z"
+  },
+  {
+    "name": "server-3-2",
+    "ip": "10.0.2.2",
+    "companyHostingId": "66e00a333333333333333333",
+    "status": "inactive",
+    "createdAt": "2025-01-12T08:00:00Z"
+  },
+  {
+    "name": "server-3-3",
+    "ip": "10.0.2.3",
+    "companyHostingId": "66e00a333333333333333333",
+    "status": "active",
+    "createdAt": "2025-01-13T08:00:00Z"
+  },
+  {
+    "name": "server-3-4",
+    "ip": "10.0.2.4",
+    "companyHostingId": "66e00a333333333333333333",
+    "status": "inactive",
+    "createdAt": "2025-01-14T08:00:00Z"
+  },
+  {
+    "name": "server-3-5",
+    "ip": "10.0.2.5",
+    "companyHostingId": "66e00a333333333333333333",
+    "status": "active",
+    "createdAt": "2025-01-15T08:00:00Z"
+  },
+  {
+    "name": "server-4-1",
+    "ip": "10.0.3.1",
+    "companyHostingId": "66e00a444444444444444444",
+    "status": "active",
+    "createdAt": "2025-01-16T08:00:00Z"
+  },
+  {
+    "name": "server-4-2",
+    "ip": "10.0.3.2",
+    "companyHostingId": "66e00a444444444444444444",
+    "status": "inactive",
+    "createdAt": "2025-01-17T08:00:00Z"
+  },
+  {
+    "name": "server-4-3",
+    "ip": "10.0.3.3",
+    "companyHostingId": "66e00a444444444444444444",
+    "status": "active",
+    "createdAt": "2025-01-18T08:00:00Z"
+  },
+  {
+    "name": "server-4-4",
+    "ip": "10.0.3.4",
+    "companyHostingId": "66e00a444444444444444444",
+    "status": "inactive",
+    "createdAt": "2025-01-19T08:00:00Z"
+  },
+  {
+    "name": "server-4-5",
+    "ip": "10.0.3.5",
+    "companyHostingId": "66e00a444444444444444444",
+    "status": "active",
+    "createdAt": "2025-01-20T08:00:00Z"
+  },
+  {
+    "name": "server-5-1",
+    "ip": "10.0.4.1",
+    "companyHostingId": "66e00a555555555555555555",
+    "status": "active",
+    "createdAt": "2025-01-21T08:00:00Z"
+  },
+  {
+    "name": "server-5-2",
+    "ip": "10.0.4.2",
+    "companyHostingId": "66e00a555555555555555555",
+    "status": "inactive",
+    "createdAt": "2025-01-22T08:00:00Z"
+  },
+  {
+    "name": "server-5-3",
+    "ip": "10.0.4.3",
+    "companyHostingId": "66e00a555555555555555555",
+    "status": "active",
+    "createdAt": "2025-01-23T08:00:00Z"
+  },
+  {
+    "name": "server-5-4",
+    "ip": "10.0.4.4",
+    "companyHostingId": "66e00a555555555555555555",
+    "status": "inactive",
+    "createdAt": "2025-01-24T08:00:00Z"
+  },
+  {
+    "name": "server-5-5",
+    "ip": "10.0.4.5",
+    "companyHostingId": "66e00a555555555555555555",
+    "status": "active",
+    "createdAt": "2025-01-25T08:00:00Z"
+  },
+  {
+    "name": "server-6-1",
+    "ip": "10.0.5.1",
+    "companyHostingId": "66e00a666666666666666666",
+    "status": "active",
+    "createdAt": "2025-01-26T08:00:00Z"
+  },
+  {
+    "name": "server-6-2",
+    "ip": "10.0.5.2",
+    "companyHostingId": "66e00a666666666666666666",
+    "status": "inactive",
+    "createdAt": "2025-01-27T08:00:00Z"
+  },
+  {
+    "name": "server-6-3",
+    "ip": "10.0.5.3",
+    "companyHostingId": "66e00a666666666666666666",
+    "status": "active",
+    "createdAt": "2025-01-28T08:00:00Z"
+  },
+  {
+    "name": "server-6-4",
+    "ip": "10.0.5.4",
+    "companyHostingId": "66e00a666666666666666666",
+    "status": "inactive",
+    "createdAt": "2025-01-29T08:00:00Z"
+  },
+  {
+    "name": "server-6-5",
+    "ip": "10.0.5.5",
+    "companyHostingId": "66e00a666666666666666666",
+    "status": "active",
+    "createdAt": "2025-01-30T08:00:00Z"
+  }
+]

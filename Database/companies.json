@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "66e00a111111111111111111"
+    },
+    "name": "Amazon Web Services"
+  },
+  {
+    "_id": {
+      "$oid": "66e00a222222222222222222"
+    },
+    "name": "Microsoft Azure"
+  },
+  {
+    "_id": {
+      "$oid": "66e00a333333333333333333"
+    },
+    "name": "Google Cloud Platform"
+  },
+  {
+    "_id": {
+      "$oid": "66e00a444444444444444444"
+    },
+    "name": "DigitalOcean"
+  },
+  {
+    "_id": {
+      "$oid": "66e00a555555555555555555"
+    },
+    "name": "IBM Cloud"
+  },
+  {
+    "_id": {
+      "$oid": "66e00a666666666666666666"
+    },
+    "name": "Heroku"
+  }
+]
